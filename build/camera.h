@@ -132,5 +132,4 @@ class camera{
     }
 };
 
-
 #endif // !CAMERA_H

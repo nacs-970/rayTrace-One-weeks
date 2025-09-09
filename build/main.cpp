@@ -99,13 +99,13 @@ void final_render(){
 
   camera cam;
   cam.aspect_ratio      = 16.0 / 9.0;
-  //cam.image_width       = 1200;
-  //cam.samples_per_pixel = 500;
-  //cam.max_depth         = 50;
+  cam.img_width       = 480;
+  cam.sample_per_pixel = 500;
+  cam.max_depth         = 50;
 
-  cam.img_width       = 144;
-  cam.sample_per_pixel = 100;
-  cam.max_depth         = 10;
+  //cam.img_width       = 144;
+  //cam.sample_per_pixel = 100;
+  //cam.max_depth         = 10;
 
   cam.vfov     = 20;
   cam.lookfrom = point3(13,2,3);
